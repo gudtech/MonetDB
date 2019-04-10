@@ -320,6 +320,9 @@ main(int argc, char *argv[])
 		{"control",       strdup("false"),         0,                  BOOLEAN},
 		{"passphrase",    NULL,                    0,                  STR},
 
+		{"gdk_mem_maxsize",	NULL,              0,                  INT},
+		{"gdk_vm_maxsize",	NULL,              0,                  INT},
+
 		{ NULL,           NULL,                    0,                  INVALID}
 	};
 	confkeyval *kv;
